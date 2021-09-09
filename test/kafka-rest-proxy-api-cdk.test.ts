@@ -1,6 +1,6 @@
 import { expect as expectCDK, matchTemplate, MatchStyle } from '@aws-cdk/assert';
 import * as cdk from '@aws-cdk/core';
-import * as KafkaRestProxyApiCdk from '../lib/kafka-rest-proxy-api-cdk-stack';
+import * as KafkaRestProxyApiCdk from '../lib/kafka-rest-proxy-api-stack';
 
 test('Empty Stack', () => {
     const app = new cdk.App();
